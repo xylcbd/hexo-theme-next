@@ -30,6 +30,7 @@ menu:
   archives: /archives
   #tags: /tags
   about: /about
+  #rss: /atom.xml
   #commonweal: /404.html
 
 
@@ -234,10 +235,10 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 23a58b060800f89fe2c9907f73bc0fdf
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: hongbomin
 
 # Disqus
 #disqus_shortname:
