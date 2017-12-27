@@ -78,12 +78,8 @@ $(document).ready(function () {
   sidebarToggleLines.push(sidebarToggleLine3rd);
 
   var SIDEBAR_WIDTH = '320px';
-<<<<<<< HEAD
-  var SIDEBAR_DISPLAY_DURATION = 100;
-=======
   var SIDEBAR_DISPLAY_DURATION = 200;
   var xPos, yPos;
->>>>>>> upstream/master
 
   var sidebarToggleMotion = {
     toggleEl: $('.sidebar-toggle'),

@@ -85,9 +85,9 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  about: /about/ || user
+  tags: /tags/ || tags
+  categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -116,9 +116,10 @@ scheme: Mist
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-#social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+social:
+  GitHub: https://github.com/xylcbd || github
+  ZhiHu: https://www.zhihu.com/people/xing-ye-luo-chen || zhihu
+  E-Mail: mailto:dahanhbm@gmail.com || gmail
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -132,10 +133,6 @@ social_icons:
   enable: true
   icons_only: false
   transition: false
-  # Icon Mappings.
-  # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
-  GitHub: https://github.com/xylcbd
-  ZhiHu: https://www.zhihu.com/people/xing-ye-luo-chen
 
 # Blog rolls
 links_icon: link
@@ -210,7 +207,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
@@ -230,10 +227,10 @@ post_wordcount:
   separated_meta: true
 
 # Wechat Subscriber
-#wechat_subscriber:
-  #enabled: true
-  #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
-  #description: ex. subscribe to my blog by scanning my public wechat account
+wechat_subscriber:
+  enabled: true
+  qcode: /about/qrcode.jpg
+  description: 欢迎关注我的微信公众号
 
 # Reward
 #reward_comment: Donate comment here
@@ -275,9 +272,9 @@ highlight_theme: normal
 
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
-auto_excerpt:
-  enable: true
-  length: 150
+#auto_excerpt:
+  #enable: false
+  #length: 150
 
 # ---------------------------------------------------------------
 # Font Settings
