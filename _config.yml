@@ -85,10 +85,10 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  about: /about/ || user
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
+  about: /about/ || user
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -230,7 +230,7 @@ post_wordcount:
 wechat_subscriber:
   enabled: true
   qcode: /about/qrcode.jpg
-  description: 欢迎关注我的微信公众号
+  description: 欢迎留言评论，邮件给我(dahanhbm AT gmail DOT com)，或者关注我的微信公众号
 
 # Reward
 #reward_comment: Donate comment here
